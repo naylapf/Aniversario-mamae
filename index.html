@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nadia: a História</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Background Effects -->
+    <div class="grain-overlay"></div>
+    <div class="sepia-bg"></div>
+
+    <!-- Film strips on sides -->
+    <div class="film-strip left">
+        <div class="holes"></div>
+    </div>
+    <div class="film-strip right">
+        <div class="holes"></div>
+    </div>
+
+    <!-- Cinematic Countdown (Decorative) -->
+    <div class="cinema-countdown">
+        <div class="line vertical"></div>
+        <div class="line horizontal"></div>
+        <div class="number">3</div>
+    </div>
+
+    <header class="hero fade-in">
+        <h1 class="hero-title">Nadia Peralta Figueiredo</h1>
+        <p class="hero-subtitle">Um pouquinho da vida de uma grande mulher</p>
+
+        <div class="polaroid-wrapper">
+            <div class="polaroid tilt-right" style="z-index: 2; max-width: 95vw;">
+                <div style="display: flex; gap: 20px; align-items: center; justify-content: center; flex-wrap: wrap;">
+                    <img src="infancia-juventude/Bebe.jpeg" alt="Bebê">
+                    <img src="infancia-juventude/Atras da foto.jpeg" alt="Verso da foto"
+                        style="width: 220px; transform: rotate(2deg);">
+                </div>
+                <div class="polaroid-caption">Em 8 de junho de 1982, o mundo se preparava para receber ela</div>
+                <div class="tape top-center"></div>
+            </div>
+        </div>
+    </header>
+
+    <main class="timeline-container">
+        <!-- Fase 1 -->
+        <section class="timeline-section fade-in">
+            <div class="timeline-content scrapbook-card">
+                <h2 class="phase-title">Infância e Juventude</h2>
+                <p class="phase-desc">Nascida, desde pequena já tinha uma personalidade forte: gostava das coisas
+                    arrumadas e limpas, de silêncio para estudar e de ganhar seu próprio dinheiro. Histórias por aí
+                    contam que depois de limpar a casa, ela não queria nem deixar sua família entrar pra não sujar
+                    tudo.<br><br>Ela também ja logo cedo, começou a trabalhar de babá, onde ganhou suas primeiras
+                    experiências maternais, ganhou perspectivas de sonhos e foi forjada em disciplina. Ela diz que mesmo
+                    com o pouco que ganhava na época, ela se sentia rica.<br><br>Trabalho, escola e então faculdade:
+                    escolhida em inspiração ao irmão, mesmo não sendo o que mais queria. Finalizou os estudos, e
+                    continuou, então o que seria a carreira de seus próximos 25 anos: Empresária Moteleira e ainda por
+                    cima, construtora de casas.</p>
+                <div class="photo-gallery phase-1-gallery"
+                    style="flex-direction: column; align-items: center; margin-top: 30px;">
+                    <div class="polaroid tilt-right sepia-filter">
+                        <img src="infancia-juventude/Adolescente-Jovem 2.jpeg" alt="Juventude">
+                        <div class="tape top-right"></div>
+                        <div class="photo-corner bottom-left"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Elementos Decorativos -->
+            <img src="Parte1 - elementos/chupeta.png" class="decorative-element" style="position: absolute; top: 10px; right: 35%; width: 100px; transform: rotate(-15deg); z-index: 0; filter: drop-shadow(2px 3px 4px rgba(0,0,0,0.2));" alt="Chupeta">
+            <img src="Parte1 - elementos/kid abelha.jpeg" class="decorative-element" style="position: absolute; top: 150px; right: 45%; width: 160px; transform: rotate(8deg); z-index: 1; border: 6px solid white; box-shadow: 2px 4px 10px rgba(0,0,0,0.3);" alt="Kid Abelha">
+            <img src="Parte1 - elementos/flores.png" class="decorative-element" style="position: absolute; top: 380px; right: -2%; width: 250px; transform: rotate(10deg); z-index: 0; filter: drop-shadow(2px 3px 6px rgba(0,0,0,0.15));" alt="Flores secas">
+            <img src="Parte1 - elementos/Camera analogica.png" class="decorative-element" style="position: absolute; top: 620px; right: 38%; width: 160px; transform: rotate(-5deg); z-index: 3; filter: drop-shadow(3px 5px 8px rgba(0,0,0,0.3));" alt="Camera">
+            <img src="Parte1 - elementos/computador antigo.png" class="decorative-element" style="position: absolute; top: 1180px; right: 20%; width: 150px; transform: rotate(6deg); z-index: 0; filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.2));" alt="Computador Antigo">
+
+            <!-- Loose Photos Espalhadas rigorosamente (Zigue-Zague vertical sem sobrepor o centro) -->
+            <div class="loose-photo polaroid" style="top: -30px; right: 5%; transform: rotate(3deg); z-index: 2;">
+                <img src="infancia-juventude/Adolescente-Jovem 1.jpeg" alt="Solta">
+                <div class="tape top-center"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 140px; right: 30%; transform: rotate(-2deg); z-index: 2;">
+                <img src="infancia-juventude/Adolescente-Jovem 3.jpeg" alt="Solta">
+                <div class="tape top-left"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 300px; right: 8%; transform: rotate(-4deg); z-index: 3;">
+                <img src="infancia-juventude/Mamae e Vovo 1.jpeg" alt="Solta">
+                <div class="tape top-right"></div>
+                <div class="photo-corner bottom-left"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 450px; right: 32%; transform: rotate(2deg); z-index: 2;">
+                <img src="infancia-juventude/Adolescente-Jovem 4.jpeg" alt="Solta">
+                <div class="tape top-center"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 600px; right: 5%; transform: rotate(-1deg); z-index: 4;">
+                <img src="infancia-juventude/Mamae e Vovo 2.jpeg" alt="Solta">
+                <div class="tape top-left"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 720px; right: 30%; transform: rotate(3deg); z-index: 1;">
+                <img src="infancia-juventude/Mamae e Bisa 1.jpeg" alt="Solta">
+                <div class="tape top-right"></div>
+                <div class="photo-corner bottom-right"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 880px; right: 35%; transform: rotate(-3deg); z-index: 2;">
+                <img src="infancia-juventude/Adolescente-Jovem 5.jpeg" alt="Solta">
+                <div class="tape top-center"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 950px; right: 8%; transform: rotate(1deg); z-index: 4;">
+                <img src="infancia-juventude/Mamae e Bisa 2.jpeg" alt="Solta">
+                <div class="tape top-left"></div>
+                <div class="photo-corner bottom-right"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 1080px; right: 32%; transform: rotate(-2deg); z-index: 1;">
+                <img src="infancia-juventude/Mamae e Bruninho.jpeg" alt="Solta">
+                <div class="tape top-right"></div>
+            </div>
+            <div class="loose-photo polaroid" style="top: 1250px; right: 5%; transform: rotate(2deg); z-index: 3;">
+                <img src="infancia-juventude/Familia antes.jpeg" alt="Solta">
+                <div class="tape top-center"></div>
+            </div>
+            
+            <!-- Spacer para forçar a altura e não sobrepor a Fase 2 -->
+            <div style="height: 1600px; width: 1px; flex-shrink: 0;"></div>
+        </section>
+
+        <!-- Fase 2 -->
+        <section class="timeline-section fade-in">
+            <div class="timeline-content scrapbook-card">
+                <h2 class="phase-title">Their young years</h2>
+                <p class="phase-desc">O começo de uma nova era. Um casal jovem, cheio de sonhos, e a doce espera pela
+                    vida que estava por vir. O amor ganhando novas formas.</p>
+                <div class="photo-gallery phase-2-gallery">
+                    <div class="polaroid tilt-right vintage-filter">
+                        <img src="https://images.unsplash.com/photo-1518104593124-ac2e82a5eb9b?auto=format&fit=crop&q=80&w=800"
+                            alt="Casal jovem">
+                        <div class="tape top-center"></div>
+                    </div>
+                    <div class="polaroid tilt-left vintage-filter">
+                        <img src="https://images.unsplash.com/photo-1517154421773-0529f29ea451?auto=format&fit=crop&q=80&w=800"
+                            alt="Grávida">
+                        <div class="tape top-left"></div>
+                        <div class="tape bottom-right"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Loose Photo -->
+            <div class="loose-photo polaroid tilt-left">
+                <img src="infancia-juventude/Adolescente-Jovem 3.jpeg" alt="Memória solta">
+                <div class="tape top-left"></div>
+            </div>
+        </section>
+
+        <!-- Fase 3 -->
+        <section class="timeline-section fade-in">
+            <div class="timeline-content scrapbook-card">
+                <h2 class="phase-title">A Família</h2>
+                <p class="phase-desc">A construção do nosso lar. Casamento, o crescimento dos filhos e os momentos
+                    repletos de afeto que formam nossa base. Cada dia, uma nova memória construída juntos.</p>
+                <div class="photo-gallery phase-3-gallery">
+                    <div class="polaroid tilt-left">
+                        <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&q=80&w=800"
+                            alt="Casamento">
+                        <div class="tape top-right"></div>
+                    </div>
+                    <div class="polaroid tilt-right">
+                        <img src="https://images.unsplash.com/photo-1609220136736-443140cffec6?auto=format&fit=crop&q=80&w=800"
+                            alt="Família">
+                        <div class="tape top-center"></div>
+                        <div class="photo-corner bottom-right"></div>
+                    </div>
+                    <div class="polaroid tilt-left">
+                        <img src="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?auto=format&fit=crop&q=80&w=800"
+                            alt="Lar">
+                        <div class="tape top-left"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Loose Photo -->
+            <div class="loose-photo polaroid tilt-right">
+                <img src="infancia-juventude/Mamae e Bruninho.jpeg" alt="Memória solta">
+                <div class="tape top-center"></div>
+            </div>
+        </section>
+
+        <!-- Fase 4 -->
+        <section class="timeline-section full-width fade-in">
+            <div class="timeline-content" style="text-align: center; width: 100%; max-width: 100%;">
+                <h2 class="phase-title">E em 2026?</h2>
+                <p class="phase-desc" style="max-width: 800px; margin: 0 auto 50px;">Em 2026, Nadia envelhece igual
+                    vinho: cada vez melhor. Agora, com seus 44 anos!</p>
+                <div class="photo-gallery phase-4-gallery" style="justify-content: center; gap: 40px;">
+                    <div class="polaroid tilt-right">
+                        <img src="Em 2026/Nadia Peralta Escolha -0091.jpg" alt="Nadia 1">
+                        <div class="tape top-left"></div>
+                        <div class="photo-corner bottom-right"></div>
+                    </div>
+                    <div class="polaroid tilt-left" style="margin-top: 40px;">
+                        <img src="Em 2026/Nadia Peralta Escolha -0203.jpg" alt="Nadia 2">
+                        <div class="tape top-center"></div>
+                    </div>
+                    <div class="polaroid tilt-right">
+                        <img src="Em 2026/Nadia Peralta Escolha -0298.jpg" alt="Nadia 3">
+                        <div class="photo-corner bottom-left"></div>
+                        <div class="tape top-right"></div>
+                    </div>
+                    <div class="polaroid tilt-left" style="margin-top: -20px;">
+                        <img src="Em 2026/Nadia Peralta Escolha -0633.jpg" alt="Nadia 4">
+                        <div class="tape top-center"></div>
+                    </div>
+                    <div class="polaroid tilt-right" style="margin-top: 50px;">
+                        <img src="Em 2026/Nadia Peralta Escolha -0647.jpg" alt="Nadia 5">
+                        <div class="tape top-left"></div>
+                    </div>
+                    <div class="polaroid tilt-left">
+                        <img src="Em 2026/Nadia Peralta Escolha -0771.jpg" alt="Nadia 6">
+                        <div class="photo-corner bottom-right"></div>
+                        <div class="tape top-right"></div>
+                    </div>
+                    <div class="polaroid tilt-right" style="margin-top: 20px;">
+                        <img src="Em 2026/Nadia Peralta Escolha -1127.jpg" alt="Nadia 7">
+                        <div class="tape top-center"></div>
+                        <div class="photo-corner bottom-left"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer fade-in">
+        <p class="signature">Com todo o meu amor, feliz aniversário! ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
